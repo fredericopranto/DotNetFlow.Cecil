@@ -1,0 +1,2 @@
+call "$(SolutionDir)Sample\bin\Debug\mergeIL.bat"
+xcopy /Q /Y "$(TargetPath)" "$(SolutionDir)Sample\bin\Debug"

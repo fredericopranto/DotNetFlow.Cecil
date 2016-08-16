@@ -1,0 +1,7 @@
+﻿//[econtext(econtextAttribute.SiteType.RaisingSite, "rsite1")]
+//[echannel("eec1", typeof(SqlException), "rsite1")]
+//[ehandler("eec1", typeof(SqlException), "hsite1")]
+//[echannel("eec2", typeof(IOException), "rsite1")]
+//[ehandler("eec2", typeof(IOException), "hsite2")]
+//[echannel("eec3", typeof(InvalidOperationException), "rsite1")]
+//[ehandler("eec3", typeof(InvalidOperationException), "hsite3")]
